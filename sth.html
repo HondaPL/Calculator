@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="user-scalable=no, width=device-width">
+        <title>Simply calculator</title>
+        <!--CMD + ALT + K to run color picker-->
+        <link rel="stylesheet" type="text/css" href="calc.css">
+    </head>
+
+    <body>
+        <p id="result">0</p>
+        <button id="ac" onclick="ca()" class="fun">AC</button>
+        <button id="reset" onclick="minusplus()" class="fun"><sup>+</sup>&#8260;<sub>&#8722;</sub></button>
+        <button id="reset" onclick="location.reload()" class="fun">&#x21bb;</button>
+        <button id="div" onclick="div()" class="action">&divide;</button>
+        <button id="button7" onclick="append(document.getElementById('result').innerHTML, '7')" class="numb">7</button>
+        <button id="button8" onclick="append(document.getElementById('result').innerHTML, '8')" class="numb">8</button>
+        <button id="button9" onclick="append(document.getElementById('result').innerHTML, '9')" class="numb">9</button>
+        <button id="mul" onclick="mul()" class="action">&times;</button>
+        <button id="button4" onclick="append(document.getElementById('result').innerHTML, '4')" class="numb">4</button>
+        <button id="button5" onclick="append(document.getElementById('result').innerHTML, '5')" class="numb">5</button>
+        <button id="button6" onclick="append(document.getElementById('result').innerHTML, '6')" class="numb">6</button>
+        <button id="sub" onclick="sub()" class="action">&minus;</button>
+        <button id="button1" onclick="append(document.getElementById('result').innerHTML, '1')" class="numb">1</button>
+        <button id="button2" onclick="append(document.getElementById('result').innerHTML, '2')" class="numb">2</button>
+        <button id="button3" onclick="append(document.getElementById('result').innerHTML, '3')" class="numb">3</button>
+        <button id="add" onclick="add()" class="action">+</button>
+        <button id="siema" onclick="append(document.getElementById('result').innerHTML, '0')">0</button>
+        <button id="dot" onclick="append(document.getElementById('result').innerHTML, '.')" class="numb">&#44;</button>
+        <button id="math" onclick="math()" class="action">=</button>
+        <h2>Project created by Adam Hącia. Have fun. </h2>
+        
+        <script src="cd.js">
+        
+        </script>
+    </body>
+    
+</html>

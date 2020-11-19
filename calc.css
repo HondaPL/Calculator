@@ -1,0 +1,84 @@
+p {
+                width: 680px;
+                height: 100px;
+                font-size: 500%;
+                background: black;
+                border: 0px;
+                text-align: right;
+                color: white;
+                font-family: Helvetica;
+            }
+            button {
+                background: #353535;
+                color: white;
+                width: 160px;
+                height: 160px;
+                border: 10px;
+                margin: 5.5px;
+                outline: 0;
+                font-size: 400%;
+                border-radius: 100px;
+                font-family: Helvetica;
+                text-align: center;
+/*                line-height: 150px;*/
+/*                display: flex;*/
+/*                align-items: center;*/
+/*                justify-content: center;*/
+                vertical-align: middle;
+            }
+            body {
+                margin: 0 auto;
+                width: 700px;
+                background: black;
+                font-family: Helvetica;
+            }
+            #siema {
+                width: 335px;
+                font-family: Helvetica;
+            }
+            #result {
+                margin: 0px;
+                font-family: Helvetica;
+            }
+h2 {
+    color: white;
+    text-align: center;
+}
+.action {
+    background: orange;
+    color: white;
+    transition: background 1s, color 1s;
+}
+.action:active {
+    background: white;
+    color: orange;
+}
+.res {
+    background: #353535;
+                color: white;
+                width: 160px;
+                height: 160px;
+                border: 0;
+                padding: 0;
+                margin: 0;
+                outline: 0;
+                font-size: 400%;
+                border-radius: 100px;
+                text-align: center;
+                font-family: Helvetica;
+}
+.fun{
+    background: #898989;
+    color: black;
+    transition: background 1s;
+}
+
+.fun:active {
+    background: #CCCCCC; 
+}
+.numb{
+    transition: background 1s;
+}
+.numb:active{
+    background: #808080; 
+}
